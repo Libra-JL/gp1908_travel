@@ -1,0 +1,20 @@
+{
+  "config": {
+    "cluster.name": "bigdata",
+    "client.transport.sniff": true
+  },
+  "address": [
+    {
+      "ip": "192.168.5.101",
+      "port": 9300
+    },
+    {
+      "ip": "192.168.5.102",
+      "port": 9300
+    },
+    {
+      "ip": "192.168.5.103",
+      "port": 9300
+    }
+  ]
+}
